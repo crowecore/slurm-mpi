@@ -17,6 +17,13 @@ sudo apt update
 sudo apt install -y build-essential openmpi-bin openmpi-common libopenmpi-dev slurm-wlm
 ```
 
+## Clone repo
+```bash
+git clone git@github.com:crowecore/slurm-mpi.git
+cd slurm-mpi
+ls -l
+```
+
 ## Files
 
 - `matrix_mult.c` - MPI-based matrix multiplication program
