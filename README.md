@@ -22,6 +22,7 @@ sudo apt install -y build-essential openmpi-bin openmpi-common libopenmpi-dev sl
 - `matrix_mult.c` - MPI-based matrix multiplication program
 - `matrix_job.sh` - Slurm job submission script
 - `Makefile` - Build automation script
+- `slurm.conf` - Slurm configuration (see run instructions below)
 
 ## Building
 
